@@ -1,0 +1,5 @@
+collections:
+  Trending:
+    trakt_trending: 10
+    sync_mode: sync
+    collection_order: release.desc
