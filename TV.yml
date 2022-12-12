@@ -1,0 +1,288 @@
+templates:
+  Network:
+    sort_title: '***<<collection_name>>'
+    sync_mode: append
+    collection_order: release.desc
+collections:
+  Discovery+:
+    template: { name: Network}
+    tmdb_network: 
+      - 4353
+      - 4784      
+    url_poster: https://theposterdb.com/api/assets/243768/view
+  Paramount+:
+    template: { name: Network }
+    tmdb_network: 4330
+    url_poster: https://theposterdb.com/api/assets/195238/view
+  Peacock:
+    template: { name: Network }
+    tmdb_network: 3353
+    url_poster: https://theposterdb.com/api/assets/115021/view
+  Hanna-Barbera:    
+    template: { name: Network }
+    imdb_list:
+      - https://www.imdb.com/list/ls094738401/
+    url_poster: https://theposterdb.com/api/assets/115234/view?
+  Animal Planet:
+    template: { name: Network }
+    tmdb_network:
+      - 91
+      - 3627
+      - 2781
+      - 4454
+    url_poster: https://theposterdb.com/api/assets/113119/view?
+  TNT:
+    template: { name: Network }
+    tmdb_network: 41
+    url_poster: https://theposterdb.com/api/assets/113276/view?
+  CNBC:
+    template: { name: Network }
+    tmdb_network: 175
+    url_poster: https://theposterdb.com/api/assets/113143/view?
+  CTV:
+    template: { name: Network }
+    tmdb_network: 110
+    url_poster: https://theposterdb.com/api/assets/113151/view?  
+  Food Network:
+    template: { name: Network }
+    tmdb_network:
+      - 143
+      - 2793
+    url_poster: https://theposterdb.com/api/assets/113170/view
+  Apple TV+:
+    template: { name: Network }
+    tmdb_network: 2552
+    url_poster: https://theposterdb.com/api/assets/113121/view?
+  HBO Max:
+    template: { name: Network }
+    tmdb_network: 3186
+    url_poster: https://theposterdb.com/api/assets/115226/view?
+  NTV:
+    template: { name: Network }
+    tmdb_network: 57
+    url_poster: https://theposterdb.com/api/assets/113236/view? 
+  USA Network:
+    template: { name: Network }
+    tmdb_network: 30
+    url_poster: https://theposterdb.com/api/assets/113293/view?
+  Nick Jr.:
+    template: { name: Network }
+    tmdb_network: 35
+    url_poster: https://theposterdb.com/api/assets/157888/view?
+  Paramount Network:
+    template: { name: Network }
+    tmdb_network: 2076
+    url_poster: https://theposterdb.com/api/assets/113242/view?
+  MSNBC:
+    template: { name: Network }
+    tmdb_network: 37
+    url_poster: https://theposterdb.com/api/assets/113199/view?
+  UPN:
+    template: { name: Network }
+    tmdb_network: 40
+    url_poster: https://theposterdb.com/api/assets/113292/view?
+  Disney XD:
+    template: { name: Network }
+    tmdb_network: 44
+    url_poster: https://theposterdb.com/api/assets/113164/view?
+  Disney Channel:
+    template: { name: Network }
+    tmdb_network: 54
+    url_poster: https://theposterdb.com/api/assets/113159/view?
+  CNN:
+    template: { name: Network }
+    tmdb_network: 59
+    url_poster: https://theposterdb.com/api/assets/113145/view?
+  Bravo:
+    template: { name: Network }
+    tmdb_network: 74
+    url_poster: https://theposterdb.com/api/assets/113134/view?
+  Syfy:
+    template: { name: Network }
+    tmdb_network: 77
+    url_poster: https://theposterdb.com/api/assets/113268/view?
+  Teletoon:
+    template: { name: Network }
+    tmdb_network: 83
+    url_poster: https://theposterdb.com/api/assets/145473/view?
+  FX:
+    template: { name: Network }
+    tmdb_network:
+      - 88
+      - 1035
+    url_poster: https://theposterdb.com/api/assets/113174/view?
+  MBS:
+    template: { name: Network }
+    tmdb_network: 94
+    url_poster: https://theposterdb.com/api/assets/145472/view?
+  AMC:
+    template: { name: Network }
+    tmdb_network: 174
+    url_poster: https://theposterdb.com/api/assets/113118/view?
+  BBC:
+    template: { name: Network }
+    tmdb_network:
+      - 4
+      - 493
+      - 332
+      - 100
+      - 3
+    url_poster: https://theposterdb.com/api/assets/113123/view?
+  Cinemax:
+    template: { name: Network }
+    tmdb_network: 359
+    url_poster: https://theposterdb.com/api/assets/113140/view?
+  Disney+:
+    template: { name: Network }
+    tmdb_network: 2739
+    url_poster: https://theposterdb.com/api/assets/113160/view?
+  FOX Kids:
+    template: { name: Network }
+    tmdb_network: 2686
+    url_poster: https://theposterdb.com/api/assets/115230/view?  
+  TV Tokyo:
+    template: { name: Network }
+    tmdb_network: 98
+    url_poster: https://theposterdb.com/api/assets/113286/view?
+  BET:
+    template: { name: Network }
+    tmdb_network: 24
+    url_poster: https://theposterdb.com/api/assets/113131/view?
+  ESPN:
+    template: { name: Network }
+    tmdb_network: 
+      - 29
+      - 70
+    url_poster: https://theposterdb.com/api/assets/113167/view?
+  Discovery:
+    template: { name: Network }
+    tmdb_network:
+      - 22
+      - 106
+      - 64
+    url_poster: https://theposterdb.com/api/assets/113157/view?
+  The WB:
+    template: { name: Network }
+    tmdb_network: 21
+    url_poster: https://theposterdb.com/api/assets/113297/view?
+  Fuji TV:
+    template: { name: Network }
+    tmdb_network: 1
+    url_poster: https://theposterdb.com/api/assets/152762/view?
+  The CW:
+    template: { name: Network }
+    tmdb_network: 71
+    url_poster: https://theposterdb.com/api/assets/113153/view?
+  VICE:
+    template: { name: Network }
+    tmdb_network:
+      - 3706
+      - 1339
+    url_poster: https://theposterdb.com/api/assets/113295/view?
+  PBS:
+    template: { name: Network }
+    tmdb_network: 14
+    url_poster: https://theposterdb.com/api/assets/113244/view?
+  CBC:
+    template: { name: Network }
+    tmdb_network: 23
+    url_poster: https://theposterdb.com/api/assets/113136/view?
+  History Channel:
+    template: { name: Network }
+    tmdb_network: 65
+    url_poster: https://theposterdb.com/api/assets/113187/view?
+  National Geographic:
+    template: { name: Network }
+    tmdb_network: 43
+    url_poster: https://theposterdb.com/api/assets/113206/view?
+  ABC:
+    template: { name: Network }
+    tmdb_network:
+      - 2
+      - 75
+    url_poster: https://theposterdb.com/api/assets/113115/view?
+  CBS:
+    template: { name: Network }
+    tmdb_network: 16
+    url_poster: https://theposterdb.com/api/assets/113138/view?
+  NBC:
+    template: { name: Network }
+    tmdb_network: 6
+    url_poster: https://theposterdb.com/api/assets/113217/view?    
+  FOX:
+    template: { name: Network }
+    tmdb_network: 19
+    url_poster: https://theposterdb.com/api/assets/113173/view?
+  WWE:
+    template: { name: Network }
+    tmdb_network: 1025
+    url_poster: https://theposterdb.com/api/assets/113299/view?
+  TLC:
+    template: { name: Network }
+    tmdb_network: 84
+    url_poster: https://theposterdb.com/api/assets/113274/view?
+  Nickelodeon:
+    template: { name: Network }
+    tmdb_network: 13
+    url_poster: https://theposterdb.com/api/assets/113231/view?
+  Comedy Central:
+    template: { name: Network }
+    tmdb_network: 47
+    url_poster: https://theposterdb.com/api/assets/113149/view?
+  HBO:
+    template: { name: Network }
+    tmdb_network:
+        - 49
+        - 2593
+        - 3308
+    url_poster: https://theposterdb.com/api/assets/113186/view?
+  Showtime:
+    template: { name: Network }
+    tmdb_network: 67
+    url_poster: https://theposterdb.com/api/assets/113257/view?
+  Netflix:
+    template: { name: Network }
+    tmdb_network: 213
+    url_poster: https://theposterdb.com/api/assets/113218/view?
+  Hulu:
+    template: { name: Network }
+    tmdb_network: 453
+    url_poster: https://theposterdb.com/api/assets/113188/view?
+  A&E:
+    template: { name: Network }
+    tmdb_network:
+        - 129
+        - 2639
+        - 3688
+    url_poster: https://theposterdb.com/api/assets/113113/view?
+  MTV:
+    template: { name: Network }
+    tmdb_network:
+        - 33
+        - 17
+    url_poster: https://theposterdb.com/api/assets/113202/view?
+  Cartoon Network:
+    template: { name: Network }
+    tmdb_network: 56
+    url_poster: https://theposterdb.com/api/assets/113135/view?
+  Boomerang:
+    template: { name: Network }
+    tmdb_network: 523
+    url_poster: https://theposterdb.com/api/assets/113132/view?
+  Adult Swim:
+    template: { name: Network }
+    tmdb_network: 80
+    url_poster: https://theposterdb.com/api/assets/113116/view?
+  Investigation Discovery:
+    template: { name: Network }
+    tmdb_network: 244
+  Primetime:
+    trakt_list: https://trakt.tv/users/htlcalbbs/lists/primetime
+    sync_mode: sync
+  Jackass:
+    imdb_list:
+      - https://www.imdb.com/list/ls026049657/
+      - https://www.imdb.com/list/ls505093120/
+    sort_title: 'Jackass'
+    sync_mode: append
+    url_poster: https://theposterdb.com/api/assets/63406/view?
