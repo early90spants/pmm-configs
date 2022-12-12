@@ -1,0 +1,100 @@
+collections:
+  Scream Factory:
+    imdb_list: https://www.imdb.com/search/title/?companies=co0235493
+    url_poster: https://theposterdb.com/api/assets/135173/view
+    sync_mode: append
+    sort_title: '***Scream Factory'
+    item_radarr_tag: ScreamFactory
+  Amazon Studios:
+    imdb_list: https://www.imdb.com/search/title/?companies=co0319272
+    sort_title: '****Amazon Studios'
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/78265/view
+    collection_order: release.desc
+  The Criterion Collection:
+    imdb_list: https://www.imdb.com/list/ls090936109/
+    sort_title: '****Criterion Collection'
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/196994/view
+    collection_order: custom
+    item_radarr_tag: Criterion
+  Disney+ Originals:
+    imdb_list: https://www.imdb.com/list/ls083574766/
+    sort_title: '****Disney+ Originals'
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/168824/view?
+    collection_order: release.desc
+  HBO Max Originals:
+    imdb_list: https://www.imdb.com/list/ls089576517/
+    sort_title: '****HBO Max Originals'
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/78166/view
+    collection_order: release.desc
+  Hulu Originals:
+    imdb_list: https://www.imdb.com/list/ls084517355/
+    sort_title: '****Hulu Originals'
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/168826/view
+    collection_order: release.desc
+  Netflix Originals:
+    imdb_list: https://www.imdb.com/list/ls093350982/
+    sort_title: '****Netflix Originals'
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/168827/view?
+    collection_order: release.desc
+  Paramount+ Originals:
+    imdb_list: https://www.imdb.com/list/ls088541646/
+    sort_title: '****Paramount+ Originals'
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/168828/view
+  A24:
+    imdb_list: https://www.imdb.com/search/title/?companies=co0390816
+    sort_title: '***A24'
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/49079/view
+    collection_order: release.desc
+  Marvel Cinematic Universe:
+    imdb_list: https://www.imdb.com/list/ls031310794/
+    sort_title: '***Marvel Cinematic Universe'
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/81748/view
+  The Masters of Cinema:
+    imdb_list: https://www.imdb.com/list/ls505553361/
+    sort_title: '**Masters of Cinema'
+    sync_mode: sync
+    item_radarr_tag: MastersofCinema
+  Pixar:
+    imdb_list: https://www.imdb.com/list/ls087911008/
+    sort_title: '***Pixar'
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/4767/view
+  IMDb Top 250:
+    imdb_chart: top_movies
+    sort_title: '**IMDb Top 250'
+    sync_mode: sync
+    collection_order: custom
+    item_radarr_tag.sync: imdbtop250
+  Stand-Up:
+    sort_title: '**Stand-Up'
+    tmdb_keyword: 9716
+    sync_mode: sync
+    url_poster: https://theposterdb.com/api/assets/204273/view
+    collection_order: release.desc
+  Jackass:
+    imdb_list:
+      - https://www.imdb.com/list/ls026049657/
+      - https://www.imdb.com/list/ls505093120/
+    sort_title: 'Jackass'
+    sync_mode: append
+    url_poster: https://theposterdb.com/api/assets/63406/view?
+  Professional Wrestlers in Movies:
+    imdb_list: https://www.imdb.com/list/ls063607996/
+    sort_title: '**Professional Wrestlers in Movies'
+    sync_mode: append
+  Movies with Commentary:
+    plex_all: true
+    filters:
+      audio_track_title.regex: '.+Commentary.+'
+    sync_mode: sync
+    collection_order: release
+    summary: Movies with commentary audio tracks from the director or critics.
