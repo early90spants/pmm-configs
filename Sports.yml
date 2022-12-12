@@ -1,0 +1,31 @@
+collections:
+  Baseball:
+    sync_mode: sync
+    plex_all: true
+    filters:
+      filepath.regex: '.+\/MLB\/.+'
+  Basketball:
+    sync_mode: sync
+    plex_all: true
+    filters:
+      filepath.regex: '.+\/NBA\/.+'
+  Football:
+    sync_mode: sync
+    plex_all: true
+    filters:
+      filepath.regex: '.+\/(NFL|XFL)\/.+'
+  Hockey:
+    sync_mode: sync
+    plex_all: true
+    filters:
+      filepath.regex: '.+\/NHL\/.+'
+  Olympics:
+    sync_mode: sync
+    plex_all: true
+    filters:
+      filepath.regex: '.+\/Olympics\/.+'
+  Skateboarding:
+    sync_mode: sync
+    plex_all: true
+    filters:
+      filepath.regex: '.+\/skateboarding\/.+'
