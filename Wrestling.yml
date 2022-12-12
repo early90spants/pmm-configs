@@ -1,0 +1,438 @@
+templates:
+  Show:
+    sort_title: '*<<collection_name>>'
+    plex_all: true
+    filters:
+      filepath.regex: '.+<<show>>.+<<year>>.+'
+    collection_mode: hide
+  Show_2:
+    sort_title: '*<<collection_name>>'
+    plex_all: true
+    filters:
+      filepath.regex: '.+<<year>>.+<<show>>.+'
+    collection_mode: hide
+  Company:
+    sort_title: '***<<collection_name>>'
+    plex_all: true
+    filters:
+      filepath.regex: '.+<<filter>>.+'
+    collection_order: release.desc
+collections:
+  WWF PPV 1995:
+    template: { name: Show, show: WWF.PPV, year: 1995 }
+    url_poster: https://i.imgur.com/m1ywFir.png
+    sort_title: '*WWE PPV 1995'
+  WWF PPV 1996:
+    template: { name: Show, show: WWF.PPV, year: 1996 }
+    url_poster: https://i.imgur.com/tE1ht0q.png }
+    sort_title: '*WWE PPV 1996'
+  WWF PPV 1997:
+    template: { name: Show, show: WWF.PPV, year: 1997 }
+    url_poster: https://i.imgur.com/eoyYzHP.png
+    sort_title: '*WWE PPV 1997'
+  WWF PPV 1998:
+    template: { name: Show, show: WWF.PPV, year: 1998 }
+    url_poster: https://i.imgur.com/apPiMTO.png
+    sort_title: '*WWE PPV 1998'
+  WWF PPV 1999:
+    template: { name: Show, show: WWF.PPV, year: 1999 }
+    url_poster: https://i.imgur.com/1xJ2zFA.png
+    sort_title: '*WWE PPV 1999'
+  WWF PPV 2000:
+    template: { name: Show, show: WWF.PPV, year: 2000 }
+    url_poster: https://i.imgur.com/8M0lZws.png
+    sort_title: '*WWE PPV 2000'
+  WWF PPV 2001:
+    template: { name: Show, show: WWF.PPV, year: 2001 }
+    url_poster: https://i.imgur.com/zvThZUQ.png
+    sort_title: '*WWE PPV 2001'
+  WCW Thunder:
+    template: { name: Show_2, show:WCW.Thunder, year: .+ }
+    url_poster: https://m.media-amazon.com/images/M/MV5BOTA3NDJlNjEtZGE5ZC00NzY2LWFhMjYtMzhjN2ZlZDU1ZjRlXkEyXkFqcGdeQXVyNzU5MjczMzE@._V1_FMjpg_UX1000_.jpg
+  WCW Monday Nitro:
+    template: { name: Show_2, show:WCW.Monday.Nitro, year: .+ }
+    url_poster: https://theposterdb.com/api/assets/197453
+  AEW Dynamite:
+    template: { name: Show_2, show: AEW.Dynamite, year: .+ }
+    url_poster: https://theposterdb.com/api/assets/247392
+  AEW Dynamite 2019:
+    template: { name: Show_2, show: AEW.Dynamite, year: 2019 }
+    url_poster: https://theposterdb.com/api/assets/247393/view
+  AEW Dynamite 2020:
+    template: { name: Show_2, show: AEW.Dynamite, year: 2020 }
+    url_poster: https://theposterdb.com/api/assets/247394/view
+  AEW Dynamite 2021:
+    template: { name: Show_2, show: AEW.Dynamite, year: 2021 }
+    url_poster: https://theposterdb.com/api/assets/247395/view
+  AEW Dynamite 2022:
+    template: { name: Show_2, show: AEW.Dynamite, year: 2022 }
+    url_poster: https://theposterdb.com/api/assets/247396/view
+  AEW Rampage 2021:
+    template: { name: Show_2, show: AEW.Rampage, year: 2021 }
+    url_poster: https://www.themoviedb.org/t/p/original/8RFkGZVIw2xTr9LCFkF6aELfZBn.jpg
+  AEW Rampage 2022:
+    template: { name: Show_2, show: AEW.Rampage, year: 2022 }
+    url_poster: https://www.themoviedb.org/t/p/original/zYvkpEnNvVA6rGhsXuZf6ogLadu.jpg
+  Continental Wrestling Association:
+    template: { name: Company, filter: Continental.Wrestling.Association }
+  WWE Monday Night Raw:
+    template: { name: Show, show: Monday.Night.Raw, year: .+ }
+    url_poster: https://theposterdb.com/api/assets/247351
+  WWF Monday Night Raw 1993:
+    template: { name: Show, show: WWF.Monday.Night.Raw, year: 1993 }
+    url_poster: https://theposterdb.com/api/assets/247321/view
+    sort_title: '*WWE Monday Night Raw 1993'
+  WWF Monday Night Raw 1994:
+    template: { name: Show, show: WWF.Monday.Night.Raw, year: 1994 }
+    url_poster: https://theposterdb.com/api/assets/247322/view
+    sort_title: '*WWE Monday Night Raw 1994'
+  WWF Monday Night Raw 1995:
+    template: { name: Show, show: WWF.Monday.Night.Raw, year: 1995 }
+    url_poster: https://theposterdb.com/api/assets/247323/view
+    sort_title: '*WWE Monday Night Raw 1995'
+  WWF Monday Night Raw 1996:
+    template: { name: Show, show: WWF.Monday.Night.Raw, year: 1996 }
+    url_poster: https://theposterdb.com/api/assets/247324/view
+    sort_title: '*WWE Monday Night Raw 1996'
+  WWF Monday Night Raw 1997:
+    template: { name: Show, show: WWF.Monday.Night.Raw, year: 1997 }
+    url_poster: https://theposterdb.com/api/assets/247325/view
+    sort_title: '*WWE Monday Night Raw 1997'
+  WWF Monday Night Raw 1998:
+    template: { name: Show, show: WWF.Monday.Night.Raw, year: 1998 }
+    url_poster: https://theposterdb.com/api/assets/247326/view
+    sort_title: '*WWE Monday Night Raw 1998'
+  WWF Monday Night Raw 1999:
+    template: { name: Show, show: WWF.Monday.Night.Raw, year: 1999 }
+    url_poster: https://theposterdb.com/api/assets/247327/view
+    sort_title: '*WWE Monday Night Raw 1999'
+  WWF Monday Night Raw 2000:
+    template: { name: Show, show: WWF.Monday.Night.Raw, year: 2000 }
+    url_poster: https://theposterdb.com/api/assets/247328/view
+    sort_title: '*WWE Monday Night Raw 2000'
+  WWF Monday Night Raw 2001:
+    template: { name: Show, show: WWF.Monday.Night.Raw, year: 2001 }
+    url_poster: https://theposterdb.com/api/assets/247329/view
+    sort_title: '*WWE Monday Night Raw 2001'
+  WWE Monday Night Raw 2002:
+    template: { name: Show, show: (WWF|WWE).Monday.Night.Raw, year: 2002 }
+    url_poster: https://theposterdb.com/api/assets/247330/view
+  WWE Monday Night Raw 2003:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2003 }
+    url_poster: https://theposterdb.com/api/assets/247331/view
+  WWE Monday Night Raw 2004:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2004 }
+    url_poster: https://theposterdb.com/api/assets/247332/view
+  WWE Monday Night Raw 2005:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2005 }
+    url_poster: https://theposterdb.com/api/assets/247333/view
+  WWE Monday Night Raw 2006:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2006 }
+    url_poster: https://theposterdb.com/api/assets/247334
+  WWE Monday Night Raw 2007:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2007 }
+    url_poster: https://theposterdb.com/api/assets/247335
+  WWE Monday Night Raw 2008:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2008 }
+    url_poster: https://theposterdb.com/api/assets/247336
+  WWE Monday Night Raw 2009:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2009 }
+    url_poster: https://theposterdb.com/api/assets/247337
+  WWE Monday Night Raw 2010:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2010 }
+    url_poster: https://theposterdb.com/api/assets/247338
+  WWE Monday Night Raw 2011:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2011 }
+    url_poster: https://theposterdb.com/api/assets/247339
+  WWE Monday Night Raw 2012:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2012 }
+    url_poster: https://theposterdb.com/api/assets/247340
+  WWE Monday Night Raw 2013:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2013 }
+    url_poster: https://theposterdb.com/api/assets/247341
+  WWE Monday Night Raw 2014:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2014 }
+    url_poster: https://theposterdb.com/api/assets/247342
+  WWE Monday Night Raw 2015:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2015 }
+    url_poster: https://theposterdb.com/api/assets/247343
+  WWE Monday Night Raw 2016:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2016 }
+    url_poster: https://theposterdb.com/api/assets/247344
+  WWE Monday Night Raw 2017:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2017 }
+    url_poster: https://theposterdb.com/api/assets/247345
+  WWE Monday Night Raw 2018:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2018 }
+    url_poster: https://theposterdb.com/api/assets/247346
+  WWE Monday Night Raw 2019:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2019 }
+    url_poster: https://theposterdb.com/api/assets/247347
+  WWE Monday Night Raw 2020:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2020 }
+    url_poster: https://theposterdb.com/api/assets/247348
+  WWE Monday Night Raw 2021:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2021 }
+    url_poster: https://theposterdb.com/api/assets/247349/view
+  WWE Monday Night Raw 2022:
+    template: { name: Show, show: WWE.Monday.Night.Raw, year: 2022 }
+    url_poster: https://theposterdb.com/api/assets/247354/view
+  WWE SmackDown:
+    template: { name: Show, show: WWE.+SmackDown, year: .+ }
+    url_poster: https://theposterdb.com/api/assets/260549
+  WWF SmackDown 1999:
+    template: { name: Show, show: WWF.SmackDown, year: 1999 }
+    url_poster: https://theposterdb.com/api/assets/260524
+    sort_title: '*WWE SmackDown 1999'
+  WWF SmackDown 2000:
+    template: { name: Show, show: WWF.SmackDown, year: 2000 }
+    url_poster: https://theposterdb.com/api/assets/260525
+    sort_title: '*WWE SmackDown 2000'
+  WWF SmackDown 2001:
+    template: { name: Show, show: WWF.SmackDown, year: 2001 }
+    url_poster: https://theposterdb.com/api/assets/260526
+    sort_title: '*WWE SmackDown 2001'
+  WWE SmackDown 2002:
+    template: { name: Show, show: (WWF|WWE).SmackDown, year: 2002 }
+    url_poster: https://theposterdb.com/api/assets/260527
+  WWE SmackDown 2003:
+    template: { name: Show, show: WWE.SmackDown, year: 2003 }
+    url_poster: https://theposterdb.com/api/assets/260528
+  WWE SmackDown 2004:
+    template: { name: Show, show: WWE.SmackDown, year: 2004 }
+    url_poster: https://theposterdb.com/api/assets/260529
+  WWE SmackDown 2005:
+    template: { name: Show, show: WWE.SmackDown, year: 2005 }
+    url_poster: https://theposterdb.com/api/assets/260530
+  WWE SmackDown 2006:
+    template: { name: Show, show: WWE.SmackDown, year: 2006 }
+    url_poster: https://theposterdb.com/api/assets/260531
+  WWE SmackDown 2007:
+    template: { name: Show, show: WWE.SmackDown, year: 2007 }
+    url_poster: https://theposterdb.com/api/assets/260532
+  WWE SmackDown 2008:
+    template: { name: Show, show: WWE.SmackDown, year: 2008 }
+    url_poster: https://theposterdb.com/api/assets/260533
+  WWE SmackDown 2009:
+    template: { name: Show, show: WWE.SmackDown, year: 2009 }
+    url_poster: https://theposterdb.com/api/assets/260534
+  WWE SmackDown 2010:
+    template: { name: Show, show: WWE.SmackDown, year: 2010 }
+    url_poster: https://theposterdb.com/api/assets/260535
+  WWE SmackDown 2011:
+    template: { name: Show, show: WWE.SmackDown, year: 2011 }
+    url_poster: https://theposterdb.com/api/assets/260536
+  WWE SmackDown 2012:
+    template: { name: Show, show: WWE.SmackDown, year: 2012 }
+    url_poster: https://theposterdb.com/api/assets/260537
+  WWE SmackDown 2013:
+    template: { name: Show, show: WWE.SmackDown, year: 2013 }
+    url_poster: https://theposterdb.com/api/assets/260538
+  WWE SmackDown 2014:
+    template: { name: Show, show: WWE.SmackDown, year: 2014 }
+    url_poster: https://theposterdb.com/api/assets/260539
+  WWE SmackDown 2015:
+    template: { name: Show, show WWE.SmackDown, year: 2015 }
+    url_poster: https://theposterdb.com/api/assets/260540
+  WWE SmackDown 2016:
+    template: { name: Show, show: WWE.SmackDown, year: 2016 }
+    url_poster: https://theposterdb.com/api/assets/260541
+  WWE SmackDown 2017:
+    template: { name: Show, show: WWE.SmackDown, year: 2017 }
+    url_poster: https://theposterdb.com/api/assets/260542
+  WWE SmackDown 2018:
+    template: { name: Show, show: WWE.SmackDown, year: 2018 }
+    url_poster: https://theposterdb.com/api/assets/260543
+  WWE SmackDown 2019:
+    template: { name: Show, show: WWE.SmackDown, year: 2019 }
+    url_poster: https://theposterdb.com/api/assets/260544
+  WWE SmackDown 2020:
+    template: { name: Show, show: WWE.SmackDown, year: 2020 }
+    url_poster: https://theposterdb.com/api/assets/260545
+  WWE SmackDown 2021:
+    template: { name: Show, show: WWE.SmackDown, year: 2021 }
+    url_poster: https://theposterdb.com/api/assets/260546
+  WWE SmackDown 2022:
+    template: { name: Show, show: WWE.SmackDown, year: 2022 }
+    url_poster: https://theposterdb.com/api/assets/260547
+  WWE 205 Live 2016:
+    template: { name: Show, show: WWE.205.Live, year: 2016 }
+    url_poster: https://artworks.thetvdb.com/banners/seasons/5da7d72f4cb3e.jpg
+  WWE 205 Live 2017:
+    template: { name: Show, show: WWE.205.Live, year: 2017 }
+    url_poster: https://artworks.thetvdb.com/banners/seasons/5da93e55e6e16.jpg
+  WWE 205 Live 2018:
+    template: { name: Show, show: WWE.205.Live, year: 2018 }
+    url_poster: https://artworks.thetvdb.com/banners/seasons/5da93e84f2e25.jpg
+  WWE 205 Live 2019:
+    template: { name: Show, show: WWE.205.Live, year: 2019 }
+    url_poster: https://artworks.thetvdb.com/banners/seasons/5d940fb9bb11c.jpg
+  WWE 205 Live 2020:
+    template: { name: Show, show: WWE.205 Live, year: 2020 }
+    url_poster: https://artworks.thetvdb.com/banners/posters/323420-1.jpg
+  WWE 205 Live 2021:
+    template: { name: Show, show: WWE.205.Live, year: 2021 }
+    url_poster: https://artworks.thetvdb.com/banners/posters/323420-1.jpg
+  WWE 205 Live 2022:
+    template: { name: Show, show: WWE.205.Live, year: 2022 }
+    url_poster: https://artworks.thetvdb.com/banners/posters/323420-1.jpg
+  Ohio Valley Wrestling:
+    template: { name: Company, filter: OVW.-.Ohio.Valley.Wrestling }
+    url_poster: https://i.imgur.com/Sfq7nM3.png
+#    item_overlay: Ohio Valley Wrestling
+  Wrestling Society X:
+    template: { name: Company, filter: Wrestling.Society.X }
+    url_poster: https://i.imgur.com/0fjlkPB.png
+  Super World of Sports:
+    template: { name: Company, filter: SWS.-.Super.World.Sports }
+    url_poster: https://i.imgur.com/YfJrBjn.png
+  National Wrestling Alliance:
+    template: { name: Company, filter: \/NWA.-.National.Wrestling.Alliance\/ }
+    url_poster: https://i.imgur.com/y1MfTuJ.png
+  Revolution Pro Wrestling:
+    template: { name: Company, filter: Revolution.Pro.Wrestling }
+    url_poster: https://i.imgur.com/FtFW6VS.png
+  CHIKARA:
+    template: { name: Company, filter: CHIKARA }
+    url_poster: https://i.imgur.com/ouLxpeb.png
+  Major League Wrestling:
+    template: { name: Company, filter: Major.League.Wrestling }
+    url_poster: https://i.imgur.com/vpBFDPO.png
+  Wrestle Association R:
+    template: { name: Company, filter: Wrestle.Association.R }
+    url_poster: https://i.imgur.com/3Z14NzU.png
+  Consejo Mundial de Lucha Libre:
+    template: { name: Company, filter: Consejo.Mundial.de.Lucha.Libre }
+    url_poster: https://i.imgur.com/K6yNQxf.png
+  Bar Wrestling:
+    template: { name: Company, filter: Bar.Wrestling\/ }
+    url_poster: https://i.imgur.com/PDYTsYC.png
+  AdFreeShows:
+    template: { name: Company, filter: AdFreeShows }
+    url_poster: https://i.imgur.com/o6o06ux.png
+  Ganbare Pro-Wrestling:
+    template: { name: Company, filter: Ganbare }
+    url_poster: https://i.imgur.com/dUHr9Vk.png
+  Wrestle-1:
+    template: { name: Company, filter: WRESTLE-1 }
+    url_poster: https://i.imgur.com/w8KO86G.png
+  Absolute Intense Wrestling:
+    template: { name: Company, filter: Absolute.Intense.Wrestling }
+    url_poster: https://i.imgur.com/9RzuDkA.png
+  PROGRESS:
+    template: { name: Company, filter: \/PROGRESS\/ }
+    url_poster: https://i.imgur.com/3uKWgfP.png
+  OSW Review:
+    template: { name: Company, filter: OSW.Review }
+    url_poster: https://i.imgur.com/w1MiskC.png
+  United States Wrestling Association:
+    template: { name: Company, filter: United.States.Wrestling.Association }
+  Championship Wrestling from Florida:
+    template: {name: Company, filter: Championship.Wrestling.from.Florida }
+  Universal Wrestling Federation (Herb Abrams):
+    template: { name: Company, filter: Herb.Abrams }
+  Highspots:
+    template: { name: Company, filter: Highspots }
+  WWE Network:
+    sort_title: '**WWE Network'
+    plex_all: true
+    filters:
+      filepath.regex: '.+(WWE.This.Week|WWE.The.Bump|WWE.Raw.Talk|WWE.Talking.Smack|WWE.Hall.of.Fame|WWE.Legends.House|WWE.Network|WWE.Ride.Along|WWE.Southpaw.Regional.Wrestling|WWE.Swerved|WWE.The.50.Greatest|WWE.The.Edge.and.Christian.Show|WWE.The.Ultimate.Show).+'
+    url_poster: https://i.imgur.com/bFGkoQX.png
+  WWE Home Video:
+    sort_title: '**WWE Home Video'
+    plex_all: true
+    filters:
+      filepath.regex: '.+WWE.Home.Video.+'
+  All Japan Pro Wrestling:
+    template: { name: Company, filter: All.Japan.Pro.Wrestling }
+  Dramatic Dream Team:
+    template: { name: Company, filter: Dramatic.Dream.Team }
+  Combat Zone Wrestling:
+    template: { name: Company, filter: Combat.Zone.Wrestling }
+  Pro Wrestling Guerrilla:
+    template: { name: Company, filter: Pro.Wrestling.Guerrilla }
+  Big Japan Pro Wrestling:
+    template: { name: Company, filter: Big.Japan.Pro.Wrestling }
+  Game Changer Wrestling:
+    template: { name: Company, filter: Game.Changer.Wrestling }
+    sync_mode: sync
+  WWE [2002-]:
+    sort_title: '***WWE_b'
+    plex_all: true 
+    filters:
+        filepath.regex: '.+WWE\..+'
+  WWF [-2002]:
+    sort_title: '***WWE_a'
+    plex_all: true
+    filters:
+      filepath.regex: '.+\.(WWF|WWWF)\..+'
+  New Japan Pro Wrestling:
+    template: { name: Company, filter: New.Japan.Pro.Wrestling }
+  All Elite Wrestling:
+    template: { name: Company, filter: All.Elite.Wrestling }
+  World Championship Wrestling:
+    template: { name: Company, filter: WCW.-.World.Championship.Wrestling }
+  Extreme Championship Wrestling:
+    template: { name: Company, filter: ECW.-.Extreme.Championship.Wrestling }
+  Ring of Honor:
+    template: { name: Company, filter: ROH.-.Ring.of.Honor }
+  iMPACT/TNA:
+    template: { name: Company, filter: wrestling\/Impact }
+  RF Video:
+    template: { name: Company, filter: RF.Video }
+  Smoky Mountain Wrestling:
+    template: { name: Company, filter: Smoky.Mountain.Wrestling }
+  Dragon Gate:
+    template: { name: Company, filter: Dragon\ Gate\/ }
+  Pro Wrestling NOAH:
+    template: { name: Company, filter: wrestling\/NOAH }
+  Tokyo Joshi Pro Wrestling:
+    template: { name: Company, filter: Tokyo.Joshi.Pro.Wrestling }
+  All Japan Women's Pro Wrestling:
+    template: { name: Company, filter: All.Japan.Womens.Pro.Wrestling }
+  World Class Championship Wrestling:
+    template: { name: Company, filter: World.Class.Championship.Wrestling }
+  Lucha Underground:
+    template: { name: Company, filter: Lucha.Underground }
+  EVOLVE:
+    template: { name: Company, filter: \/EVOLVE\/ }
+  Ice Ribbon:
+    template: { name: Company, filter: Ice.Ribbon }
+  FREEDOMS:
+    template: { name: Company, filter: \/FREEDOMS\/ }
+  Frontier Martial-Arts Wrestling:
+    template: { name: Company, filter: FMW.-.Frontier.Martial.Arts.Wrestling\/ }
+  HUSTLE:
+    template: { name: Company, filter: \/HUSTLE\/ }
+  ZERO1:
+    template: { name: Company, filter: \/ZERO1\/ }
+  Florida Championship Wrestling:
+    template: { name: Company, filter: \/FCW.-.Florida.Championship.Wrestling\/ }
+  Westside Xtreme Wrestling:
+    template: { name: Company, filter: wXw.-.Westside.Xtreme.Wrestling }
+  Starrcast:
+    template: { name: Company, filter: \/Starrcast\/ }
+  Dragon Gate USA:
+    template: { name: Company, filter: Dragon.Gate.USA }
+  Michinoku Pro:
+    template: { name: Company, filter: Michinoku.Pro }
+  Smash Wrestling:
+    template: { name: Company, filter: Smash.Wrestling }
+  Stardom:
+    template: { name: Company, filter: \/Stardom\/ }
+  ICW No Holds Barred:
+    template: { name: Company, filter: ICW.No.Holds.Barred }
+  Elite Canadian Championship Wrestling:
+    template: { name: Company, filter: Elite.Canadian.Championship.Wrestling }
+  Botchamania:
+    template: { name: Company, filter: Botchamania }
+  Stampede Wrestling:
+    template: { name: Company, filter: Stampede.Wrestling }
+  IWA Japan:
+    template: { name: Company, filter: IWA.Japan }
+  IWA Mid-South:
+    template: { name: Company, filter: IWA.Mid.South }
+  Big Mouth Loud:
+    template: { name: Company, filter: Big.Mouth.Loud }
+    url_poster: https://i.imgur.com/LwLpp50.png
