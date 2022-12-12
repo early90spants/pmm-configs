@@ -1,0 +1,56 @@
+collections:
+  ABC:
+    url_poster: https://theposterdb.com/api/assets/113115/view?
+    plex_all: true
+    filters:
+      filepath.regex: '.+(\/|\.)ABC\..+'
+  Adult Swim:
+    url_poster: https://theposterdb.com/api/assets/113116/view?
+    plex_all: true
+    filters:
+      filepath.regex: '.+(\/|\.)Adult.Swim\..+'  
+  BET:
+    url_poster: https://theposterdb.com/api/assets/113131/view?
+    plex_all: true
+    filters:
+      filepath.regex: '.+(\/|\.)BET\..+'
+  Boomerang:
+    url_poster: https://theposterdb.com/api/assets/113132/view?
+    plex_all: true
+    filters:
+      filepath.regex: '.+(\/|\.)Boomerang\..+'
+  Cartoon Network:
+    url_poster: https://theposterdb.com/api/assets/113135/view?
+    plex_all: true
+    filters:
+      filepath.regex: '.+(\/|\.)Cartoon.Network\..+'
+  CBS:
+    url_poster: https://theposterdb.com/api/assets/113138/view?
+    plex_all: true
+    filters:
+      filepath.regex: '.+(\/|\.)CBS\..+'
+  CNN:
+    url_poster: https://theposterdb.com/api/assets/113145/view?
+    plex_all: true
+    filters:
+      filepath.regex: '.+(\/|\.)CNN\..+'
+  FOX:
+    url_poster: https://theposterdb.com/api/assets/113173/view?
+    plex_all: true
+    filters:
+      filepath.regex: '.+(\/|\.)FOX\..+'
+  MTV:
+    url_poster: https://theposterdb.com/api/assets/113202/view?
+    plex_all: true
+    filters:
+      filepath.regex: '.+(\/|\.)MTV\..+'
+  NBC:
+    url_poster: https://theposterdb.com/api/assets/113217/view?
+    plex_all: true
+    filters:
+      filepath.regex: '.+(\/|\.)NBC\..+'
+  Nickelodeon:
+    url_poster: https://theposterdb.com/api/assets/113231/view?
+    plex_all: true
+    filters:
+      filepath.regex: '.+(\/|\.)Nickelodeon\..+'
