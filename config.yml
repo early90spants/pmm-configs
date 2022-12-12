@@ -1,0 +1,117 @@
+## This file is a template remove the .template to use the file
+
+libraries:                                      # Library mappings must have a colon (:) placed after them
+  TV Shows:
+    metadata_path:
+    - file: config/TV.yml
+  Movies:
+    metadata_path:
+    - file: config/Holiday.yml
+    - file: config/Movies.yml
+    - file: config/MoviesTrending.yml
+    - git: hjone72/Oscars
+    radarr:
+      url: (redacted)
+      token: (redacted)
+      add_missing: false
+      add_existing: false
+      root_folder_path: /movies
+      monitor: false
+      availability: announced
+      quality_profile: Default
+      search: false
+      radarr_path: /movies
+      plex_path: /movies
+  4K Movies:
+    metadata_path:
+    - file: config/4KMovies.yml
+    - git: hjone72/Oscars
+    - git: hjone72/Cannes
+    - git: hjone72/Sundance
+    radarr:
+      url: (redacted)
+      token: (redacted)
+      add_missing: false
+      add_existing: false
+      root_folder_path: /teamdrive
+      monitor: false
+      availability: announced
+      quality_profile: Default
+      search: false
+      radarr_path: /teamdrive/
+      plex_path: /teamdrives/early90spants/movies.uhd/
+  Sports:
+    metadata_path:
+    - file: config/Sports.yml
+  Misc. Video:
+    metadata_path:
+    - file: config/MiscVideo.yml
+  MMA:
+    metadata_path:
+    - file: config/MMA.yml
+  Wrestling:
+    metadata_path:
+    - file: config/Wrestling.yml
+settings:                                       # Can be individually specified per library as well
+  cache: true
+  cache_expiration: 60
+  asset_directory: config/assets
+  asset_folders: true
+  assets_for_all: false
+  sync_mode: append
+  show_unmanaged: true
+  show_filtered: false
+  show_missing: true
+  save_missing: true
+  run_again_delay: 2
+  missing_only_released: false
+  create_asset_folders: false
+  delete_below_minimum: false
+  notifiarr_collection_creation: false
+  notifiarr_collection_addition: false
+  notifiarr_collection_removing: false
+  tvdb_language: default
+  show_missing_assets: true
+  asset_depth: 0
+  show_missing_season_assets: false
+  delete_not_scheduled: false
+  only_filter_missing: false
+  ignore_ids:
+  ignore_imdb_ids:
+  minimum_items: 1
+  dimensional_asset_rename: false
+  default_collection_order:
+  show_options: false
+  playlist_sync_to_users: all
+  download_url_assets: false
+  item_refresh_delay: 0
+  verify_ssl: true
+  custom_repo:
+  show_missing_episode_assets: false
+  show_asset_not_needed: true
+  prioritize_assets: false
+  playlist_report: true
+  check_nightly: false
+plex:                                           # Can be individually specified per library as well
+  url: (redacted)
+  token: (redacted)
+  timeout: 60
+  clean_bundles: false
+  empty_trash: false
+  optimize: false
+tmdb:
+  apikey: (redacted)
+  language: en
+  cache_expiration: 60
+  region:
+trakt:
+  client_id: (redacted)
+  client_secret: (redacted)
+  authorization:
+    access_token: (redacted)
+    token_type: Bearer
+    expires_in: 7889237
+    refresh_token: (redacted)
+    scope: public
+    created_at: 1666432826
+  pin:
