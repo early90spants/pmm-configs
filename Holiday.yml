@@ -15,7 +15,6 @@ collections:
     sort_title: +++++_Christmas
     imdb_list:
       - https://www.imdb.com/list/ls027353066/
-      - https://www.imdb.com/list/ls566088364/
       - https://www.imdb.com/list/ls052787631/
   Halloween:
     schedule: range(10/01-10/31)
@@ -52,4 +51,4 @@ collections:
     template: {name: Holiday, holiday: Easter, poster: https://theposterdb.com/api/assets/60970}
     imdb_list: 
       - https://www.imdb.com/list/ls062665509/
-      - https://www.imdb.com/list/ls051733651/
+      - https://www.imdb.com/list/ls051733651/y
