@@ -6,9 +6,9 @@ templates:
 collections:
   Discovery+:
     template: { name: Network}
-    tmdb_network: 
+    tmdb_network:
       - 4353
-      - 4784      
+      - 4784
     url_poster: https://theposterdb.com/api/assets/243768/view
   Paramount+:
     template: { name: Network }
@@ -18,7 +18,7 @@ collections:
     template: { name: Network }
     tmdb_network: 3353
     url_poster: https://theposterdb.com/api/assets/115021/view
-  Hanna-Barbera:    
+  Hanna-Barbera:
     template: { name: Network }
     imdb_list:
       - https://www.imdb.com/list/ls094738401/
@@ -42,7 +42,7 @@ collections:
   CTV:
     template: { name: Network }
     tmdb_network: 110
-    url_poster: https://theposterdb.com/api/assets/113151/view?  
+    url_poster: https://theposterdb.com/api/assets/113151/view?
   Food Network:
     template: { name: Network }
     tmdb_network:
@@ -60,7 +60,7 @@ collections:
   NTV:
     template: { name: Network }
     tmdb_network: 57
-    url_poster: https://theposterdb.com/api/assets/113236/view? 
+    url_poster: https://theposterdb.com/api/assets/113236/view?
   USA Network:
     template: { name: Network }
     tmdb_network: 30
@@ -139,7 +139,7 @@ collections:
   FOX Kids:
     template: { name: Network }
     tmdb_network: 2686
-    url_poster: https://theposterdb.com/api/assets/115230/view?  
+    url_poster: https://theposterdb.com/api/assets/115230/view?
   TV Tokyo:
     template: { name: Network }
     tmdb_network: 98
@@ -150,7 +150,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/113131/view?
   ESPN:
     template: { name: Network }
-    tmdb_network: 
+    tmdb_network:
       - 29
       - 70
     url_poster: https://theposterdb.com/api/assets/113167/view?
@@ -165,6 +165,7 @@ collections:
     template: { name: Network }
     tmdb_network: 21
     url_poster: https://theposterdb.com/api/assets/113297/view?
+    sort_title: '***WB'
   Fuji TV:
     template: { name: Network }
     tmdb_network: 1
@@ -173,6 +174,7 @@ collections:
     template: { name: Network }
     tmdb_network: 71
     url_poster: https://theposterdb.com/api/assets/113153/view?
+    sort_title: '***CW'
   VICE:
     template: { name: Network }
     tmdb_network:
@@ -208,7 +210,7 @@ collections:
   NBC:
     template: { name: Network }
     tmdb_network: 6
-    url_poster: https://theposterdb.com/api/assets/113217/view?    
+    url_poster: https://theposterdb.com/api/assets/113217/view?
   FOX:
     template: { name: Network }
     tmdb_network: 19
